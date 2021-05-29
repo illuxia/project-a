@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>project-a</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<name>project-a</name>
 	<description>project-a</description>
 	
@@ -89,4 +89,7 @@
 			</build>
 		</profile>
 	</profiles>
+	<modules>
+		<module>project-b</module>
+	</modules>
 </project>
